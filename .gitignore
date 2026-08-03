@@ -1,0 +1,26 @@
+# Large data and generated outputs
+03_数据集/raw/
+03_数据集/processed/
+03_数据集/external/
+05_实验记录/runs/
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.local
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Nested repository metadata kept as a local backup
+**/.git.nested-backup/
